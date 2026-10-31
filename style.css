@@ -434,3 +434,73 @@ footer {
     color: #E8D9CC;
     font-size: 13px;
 }
+@media (max-width: 768px) {
+     nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 18px;
+        position: relative;
+    }
+    .navlogo {
+        font-size: 24px;
+    }
+    nav ul {
+        gap: 18px;
+    }
+    nav ul a {
+        font-size: 14px;
+    }
+    nav .button {
+        width: 100%;
+        max-width: 220px;
+    }
+    header {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 45px 24px;
+        text-align: center;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .hero-content h1 {
+        font-size: 38px;
+        letter-spacing: -1px;
+    }
+    .hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 15px;
+    }
+    .hero-image img {
+        height: 280px;
+    }
+    section {
+        padding: 45px 20px;
+    }
+    .companies-name {
+        gap: 20px 30px;
+        font-size: 18px;
+    }
+    .categories article,
+    .courses article {
+        width: 100%;
+        max-width: 450px;
+        margin: 12px auto;
+    }
+    .categories article {
+        min-height: 140px;
+    }
+    .courses article {
+        min-height: 390px;
+    }
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    footer {
+        padding: 45px 25px 20px;
+    }
+}
+
+
